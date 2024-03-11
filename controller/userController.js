@@ -158,7 +158,7 @@ exports.forgotPassword = async(req,res)=>{
 
             // Set token and logo to ejs file
             const data = {
-                passwordresetlink:`http://localhost:3000/resetpassword/${userFind.id}/${setusertoken.verifytoken}`,
+                passwordresetlink:`https://deep7nshuecommerce.netlify.app/resetpassword/${userFind.id}/${setusertoken.verifytoken}`,
                 logo:"https://cdn-icons-png.flaticon.com/128/732/732200.png"
             }
 
